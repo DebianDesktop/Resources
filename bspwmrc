@@ -17,5 +17,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 vmware-user-suid-wrapper &
-~/.config/polybar/launch.sh
-/usr/bin/feh feh --bg-fill "$(xdg-user-dir DESKTOP)/Fondo/wallpapers/anime-dr-stone-senku-ishigami-action-desktop-wallpaper.jpg"
+~/.config/polybar/launch.sh &
+/usr/bin/feh feh --bg-fill "$(xdg-user-dir DESKTOP)/Fondo/wallpapers/anime-dr-stone-senku-ishigami-action-desktop-wallpaper.jpg" &
+picom &
+bspc config border_width 0 
